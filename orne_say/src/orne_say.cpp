@@ -27,7 +27,7 @@ private:
 	std::string world_frame_;
 	ros::Subscriber tf_sub;
 	geometry_msgs::PoseStamped pose_t;
-	geometry_msgs::PoseStamped goal position;
+	geometry_msgs::PoseStamped goal_position;
 
 	tf::TransformListener tf_listener;
 	std::string world_frame;
