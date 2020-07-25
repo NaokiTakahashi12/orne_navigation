@@ -24,7 +24,10 @@
 
     <include file="$(find orne_bringup)/launch/adis16465.launch"/>
 
+    <!--
     <include file="$(find orne_bringup)/launch/includes/base.launch.xml"/>
+    -->
 
+    <include file="$(find orne_bringup)/launch/includes/ekf_template.launch.xml"/>
 </launch>
 
